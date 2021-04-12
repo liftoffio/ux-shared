@@ -2,7 +2,7 @@
 
 ### **UX Newsletters**
 
-List of all [UX newsletters](/newsletters/newsletters.html)
+All [UX newsletters](/newsletters/newsletters.html)
 
 ### **Storybook HTML files and examples**
 
