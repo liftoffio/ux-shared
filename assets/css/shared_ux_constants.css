@@ -1,0 +1,111 @@
+/* ------------------------------
+   shared_ux_constants.css
+   ------------------------------ */
+
+:root {
+  /* dark blue */
+  --dark-blue: #1E6AA6;
+  --vendor-blue: #0061FF;
+  --topnav-blue: #079AE6;
+
+  /* primary blue */
+  --primary-blue: #02B1FF;
+  --primary-blue-10: #F0F9FE;
+  --primary-blue-15: #DAF3FF;
+  --primary-blue-20: #CCEFFF;
+  --primary-blue-25: #C0EBFF;
+  --primary-blue-50: #80D8FF;
+  --primary-blue-70: #4EC8FF;
+
+  /* primary blue with transparency */
+  --primary-blue-rgba-15: rgba(2, 177, 255, 0.15);
+  --primary-blue-rgba-25: rgba(2, 177, 255, 0.25);
+  --primary-blue-rgba-40: rgba(2, 177, 255, 0.4);
+
+  /* cool blue (use for tables) */
+  --cool-blue: #3598FF;
+  --cool-blue-15: #E1F0FF;
+  --cool-blue-20: #D7EAFF;
+  --cool-blue-25: #CCE5FF;
+  --cool-blue-30: #C2E0FF;
+
+  /* orange */
+  --accent-orange: #FF7030;
+  --accent-orange-10: #FFF1EA;
+  --accent-orange-25: #FFDBCB; /* currently only used as a chart color */
+
+  /* red */
+  --error-red: #E63C5F;
+  --error-red-15: #FBE2E7;
+  --error-red-80: #EB637F;
+
+  /* green */
+  --accent-green: #86D51A;
+  --accent-green-15: #EDF9DD;
+  --accent-green-20: #E7F7D1;
+  --accent-green-30: #DAF2B9;
+  --accent-green-80: #9EDD48;
+  --accent-green-150: #57CD24;
+
+  /* gold */
+  --accent-gold: #FA0;
+  --accent-gold-10: #FFF7E6;
+  --accent-gold-15: #FFF2D9;
+  --accent-gold-20: #FFEECC;
+  --accent-gold-30: #FFE5B2; /* currently only used as a chart color */
+
+  /* darker gray */
+  --darker-gray: #434343; /* copy */
+  --darker-gray-75: #727272;
+
+  /* medium gray */
+  --medium-gray: #9B9BA8; /* copy light (labels, hints) */
+  --medium-gray-80: #AFAFB9;
+  --medium-gray-65: #BEBEC6;
+  --medium-gray-50: #CDCDD4;
+  --medium-gray-25: #E5E5E9;
+
+  /* light-cool-gray */
+  --light-cool-gray: #E5E5F0;
+  --light-cool-gray-15: #FBFBFC;
+  --light-cool-gray-25: #F8F8FB;
+  --light-cool-gray-40: #F5F5FC;
+  --light-cool-gray-50: #F2F2F9;
+  --light-cool-gray-70: #EDEDF7;
+  --light-cool-gray-90: #E8E8F2;
+
+  /* gray with transparency */
+  --light-gray-rgba-10: rgba(100, 100, 100, 0.1);
+  --light-gray-rgba-80: rgba(232, 232, 242, 0.8);
+  --gray-rgba-03: rgba(0, 0, 110, 0.03);
+  --gray-rgba-05: rgba(0, 0, 80, 0.05);
+  --gray-rgba-50: rgba(0, 0, 0, 0.5);
+
+  /* purple */
+  --primary-purple: #9E00F5; /* shared with charts */
+  --primary-purple-05: #F7F0FC;
+  --primary-purple-10: #F6E4FF;
+  --primary-purple-15: #EED9FC;
+  --primary-purple-20: #ECCCFD; /* shared with charts */
+  --primary-purple-70: #BB4EF8;
+
+  /* other */
+  --bright-pink: #E530C6;
+  --bright-pink-20: #FAD6F4;
+  --accent-teal: #06978A;
+  --accent-teal-20: #CDEAE8;
+  --accent-cool-purple: #6167EF;
+  --accent-cool-purple-15: #E7E8FD;
+
+  /* friendly names */
+  --employee-only-purple: --primary-purple;
+  --employee-only-purple-05: --primary-purple-05;
+  --employee-only-purple-10: --primary-purple-10;
+  --employee-only-purple-15: --primary-purple-15;
+  --employee-only-purple-20: --primary-purple-20;
+
+  --regular-dark-text: --darker-gray;
+  --regular-light-text: --medium-gray;
+
+  --border-color: --light-gray-rgba-10;
+}

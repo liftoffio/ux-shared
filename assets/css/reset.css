@@ -1,0 +1,9 @@
+/* ------------------------------
+   reset.css
+   ------------------------------ */
+
+a:-webkit-any-link {
+  color: unset;
+  cursor: unset;
+  text-decoration: unset;
+}

@@ -1,0 +1,81 @@
+/* fonts.css */
+
+   @font-face {
+    font-family: "Proxima-thin";
+    font-style: normal;
+    src:
+      url("../fonts/proximanova_thin-webfont.woff") format('woff'),
+      url("../fonts/proximanova_thin-webfont.woff2") format('woff2');
+  }
+  
+  @font-face {
+    font-family: "Proxima-light";
+    font-style: normal;
+    src:
+      url("../fonts/proximanova_light-webfont.woff") format('woff'),
+      url("../fonts/proximanova_light-webfont.woff2") format('woff2');
+  }
+  
+  @font-face {
+    font-family: "Proxima";
+    font-style: normal;
+    src:
+      url("../fonts/proximanova_regular-webfont.woff") format('woff'),
+      url("../fonts/proximanova_regular-webfont.woff2") format('woff2');
+  }
+  
+  @font-face {
+    font-family: "Proxima-semibold";
+    font-style: normal;
+    src:
+      url("../fonts/proximanova_semibold-webfont.woff") format('woff'),
+      url("../fonts/proximanova_semibold-webfont.woff2") format('woff2');
+  }
+  
+  @font-face {
+    font-family: "Proxima-bold";
+    font-style: normal;
+    src:
+      url("../fonts/proximanova_bold-webfont.woff") format('woff'),
+      url("../fonts/proximanova_bold-webfont.woff2") format('woff2');
+  }
+  
+  @font-face {
+    font-family: "Proxima-extrabold";
+    font-style: normal;
+    font-weight: 800;
+    src:
+      url("../fonts/proximanova_extrabold-webfont.woff") format('woff'),
+      url("../fonts/proximanova_extrabold-webfont.woff2") format('woff2');
+  }
+  
+  @font-face {
+    font-family: "Proxima-black";
+    font-style: normal;
+    font-weight: 900;
+    src:
+      url("../fonts/proximanova_black-webfont.woff") format('woff'),
+      url("../fonts/proximanova_black-webfont.woff2") format('woff2');
+  }
+  
+  @font-face {
+    font-family: "Proxima-light-italic";
+    src:
+      url("../fonts/proximanova_light_it-webfont.woff") format('woff'),
+      url("../fonts/proximanova_light_it-webfont.woff2") format('woff2');
+  }
+  
+  @font-face {
+    font-family: "Proxima-italic";
+    src:
+      url("../fonts/proximanova_regular_it-webfont.woff") format('woff'),
+      url("../fonts/proximanova_regular_it-webfont.woff2") format('woff2');
+  }
+  
+  @font-face {
+    font-family: "Proxima-semibold-italic";
+    src:
+      url("../fonts/proximanova_semibold_it-webfont.woff") format('woff'),
+      url("../fonts/proximanova_semibold_it-webfont.woff2") format('woff2');
+  }
+  

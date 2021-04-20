@@ -1,6 +1,52 @@
-/* ux-shared.css */
+/* ------------------------------
+   ux_shared.css
+   ------------------------------ */
+
+@import url("reset.css");
+@import url("fonts.css");
+@import url("shared_ux_constants.css");
 
 body {
+  font-family: 'Proxima', sans-serif;
+  font-size: 14px;
+  line-height: 1.25em;
   padding: 24px;
   background: #F2F2F9;
+}
+
+h1 {
+  font-family: 'Proxima-light';
+  font-size: 32px;
+}
+
+a, a:hover, a:focus, a:active, a:visited {
+  color: var(--primary-blue);
+  cursor: pointer;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: underline;
+}
+
+/* -------- newsletters -------- */
+
+.newsletter-links {
+  margin-top: 32px;
+}
+
+.newsletter {
+
+}
+
+.newsletter .title {
+  font-family: 'Proxima', sans-serif;
+  font-size: 16px;
+}
+
+.newsletter .topics {
+  color: --medium-gray;
+}
+
+.newsletter .topic {
+  
 }
