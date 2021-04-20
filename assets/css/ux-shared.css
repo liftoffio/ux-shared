@@ -2,9 +2,9 @@
    ux_shared.css
    ------------------------------ */
 
+@import url("shared_ux_constants.css");
 @import url("reset.css");
 @import url("fonts.css");
-@import url("shared_ux_constants.css");
 
 body {
   font-family: 'Proxima', sans-serif;
@@ -19,34 +19,52 @@ h1 {
   font-size: 32px;
 }
 
-a, a:hover, a:focus, a:active, a:visited {
-  color: var(--primary-blue);
-  cursor: pointer;
-}
-
 a:hover, a:focus, a:active {
   text-decoration: underline;
 }
 
 /* -------- newsletters -------- */
 
-.newsletter-links {
+.newsletter-holder {
   margin-top: 32px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
 }
 
 .newsletter {
-
+  margin: 24px 24px 0 0;
+  background: #FFF;
+  border-radius: var(--border-radius);
 }
 
 .newsletter .title {
   font-family: 'Proxima', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
+  padding: 24px;
+  background: var(--primary-blue);
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+}
+
+.newsletter .title:hover {
+  background: var(--primary-blue-50);
+}
+
+.newsletter .title a,
+.newsletter .title a:hover,
+.newsletter .title a:active,
+.newsletter .title a:focus,
+.newsletter .title a:visited {
+  color: #FFF;
+  text-decoration: none !important;
 }
 
 .newsletter .topics {
-  color: --medium-gray;
+  color: var(--medium-gray);
+  padding: 24px;
 }
 
 .newsletter .topic {
-  
+  line-height: 1.8em;
 }

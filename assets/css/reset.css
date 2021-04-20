@@ -2,8 +2,12 @@
    reset.css
    ------------------------------ */
 
-a:-webkit-any-link {
-  color: unset;
-  cursor: unset;
-  text-decoration: unset;
+a:-webkit-any-link, a, a:hover, a:focus, a:active, a:visited {
+  color: var(--primary-blue);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover, a:focus, a:active {
+    text-decoration: underline !important;
 }

@@ -3,6 +3,9 @@
    ------------------------------ */
 
 :root {
+  /* layout */
+  --border-radius: 8px;
+
   /* dark blue */
   --dark-blue: #1E6AA6;
   --vendor-blue: #0061FF;
@@ -103,9 +106,7 @@
   --employee-only-purple-10: --primary-purple-10;
   --employee-only-purple-15: --primary-purple-15;
   --employee-only-purple-20: --primary-purple-20;
-
   --regular-dark-text: --darker-gray;
   --regular-light-text: --medium-gray;
-
   --border-color: --light-gray-rgba-10;
 }
