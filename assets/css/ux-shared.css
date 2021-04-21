@@ -45,7 +45,8 @@ a:hover, a:focus, a:active {
 
 .newsletter {
   margin: 24px 24px 0 0;
-  width: 320px;
+  height: 502px;
+  width: 360px;
   min-width: 320px;
   position: relative;
   background: #FFF;
