@@ -78,4 +78,30 @@
       url("../fonts/proximanova_semibold_it-webfont.woff") format('woff'),
       url("../fonts/proximanova_semibold_it-webfont.woff2") format('woff2');
   }
-  
+
+  /* icomoon */
+
+  @font-face {
+    font-family: "icomoon";
+    font-style: normal;
+    src:
+      url("/fonts/icomoon.woff") format('woff'),
+      url("/fonts/icomoon.woff2") format('woff2');
+  }
+
+  .icomoon,
+  .newsletter .title::before {
+    font-family: 'icomoon', sans-serif;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    display: inline-block;
+    position: absolute;
+
+    /* --- Better Font Rendering --- */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }

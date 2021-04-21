@@ -11,3 +11,7 @@ a:-webkit-any-link, a, a:hover, a:focus, a:active, a:visited {
 a:hover, a:focus, a:active {
     text-decoration: underline !important;
 }
+
+img {
+  display: block;
+}
