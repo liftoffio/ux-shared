@@ -15,8 +15,9 @@ body {
 }
 
 h1 {
+  color: #333;
   font-family: 'Proxima-light';
-  font-size: 32px;
+  font-size: 40px;
   letter-spacing: .02em;
   margin-top: 24px;
 }
@@ -32,6 +33,7 @@ a:hover, a:focus, a:active {
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
+  flex-wrap: wrap;
 }
 
 .newsletters a *,
@@ -44,12 +46,14 @@ a:hover, a:focus, a:active {
 .newsletter {
   margin: 24px 24px 0 0;
   width: 320px;
+  min-width: 320px;
   position: relative;
   background: #FFF;
   border-radius: var(--border-radius);
 }
 
-.newsletter:hover::after {
+.newsletter:hover::after,
+.newsletter:focus::after {
   content: "";
   display: block;
   position: absolute;
@@ -78,6 +82,7 @@ a:hover, a:focus, a:active {
 
 .newsletter .title::before {
   content: "\e933";
+  color:rgba(255, 255, 255, .7);
   font-size: 32px;
   height: 56px;
   width: 56px;
@@ -87,15 +92,6 @@ a:hover, a:focus, a:active {
   top: 24px;
   left: 28px;
   border-radius: var(--border-radius);
-}
-
-.newsletter .title.green {
-  background: var(--accent-green-150);
-}
-
-.newsletter .title.green::before {
-  color:rgba(255, 255, 256, .7);
-  background: #1fa504;
 }
 
 .newsletter .date {
@@ -110,9 +106,10 @@ a:hover, a:focus, a:active {
 }
 
 .newsletter .topic {
-  font-family: 'Proxima-semibold', sans-serif;
+  font-family: 'Proxima-bold', sans-serif;
   font-size: 16px;
-  line-height: 1.8em;
+  line-height: 1.3em;
+  margin-bottom: 16px;
 }
 
 .newsletter .subtopic {
@@ -121,4 +118,34 @@ a:hover, a:focus, a:active {
   line-height: 1.3em;
   margin-bottom: 8px;
   padding-left: 16px;
+}
+
+.newsletter .subtopic:first-child {
+  margin-top: 8px;
+}
+
+/* title colors */
+
+.newsletter .title.green {
+  background: var(--accent-green-150);
+}
+
+.newsletter .title.green::before {
+  background: #1fa504;
+}
+
+.newsletter .title.blue {
+  background: var(--primary-blue);
+}
+
+.newsletter .title.blue::before {
+  background: #007bff;
+}
+
+.newsletter .title.gray {
+  background: #cecee2;
+}
+
+.newsletter .title.gray::before {
+  background: #a6a6c8;
 }
