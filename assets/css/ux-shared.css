@@ -76,7 +76,7 @@ a:hover, a:focus, a:active {
 
 .newsletter .title span {
   font-family: 'Proxima-bold', sans-serif;
-  font-size: 24px;
+  font-size: 28px;
   letter-spacing: .02em;
   text-transform: uppercase;
 }
@@ -97,7 +97,7 @@ a:hover, a:focus, a:active {
 
 .newsletter .date {
   font-family: 'Proxima', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 8px;
 }
 
@@ -115,8 +115,6 @@ a:hover, a:focus, a:active {
 
 .newsletter .subtopic {
   font-family: 'Proxima', sans-serif;
-  font-size: 14px;
-  line-height: 1.3em;
   margin-bottom: 8px;
   padding-left: 16px;
 }
