@@ -153,6 +153,7 @@ body.newsletters {
 .newsletter .subtopic {
   color: var(--medium-gray);
   font-family: 'Proxima', sans-serif;
+  margin: 4px 0;
 }
 
 .newsletter .subtopic:first-child {
@@ -164,7 +165,7 @@ body.newsletters {
   font-family: "Proxima", sans-serif;
   line-height: 32px;
   padding: 0 16px;
-  margin: 8px 24px 24px 24px;
+  margin: 0 24px 24px 24px;
   display: inline-flex;
   align-self: flex-end;
   right: 0;
