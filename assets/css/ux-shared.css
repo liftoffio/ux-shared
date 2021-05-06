@@ -57,7 +57,7 @@ body.newsletters {
   margin-top: 40px;
   display: flex;
   justify-content: flex-start;
-  align-items: stretch;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
@@ -130,8 +130,10 @@ body.newsletters {
 
 .newsletter .topic {
   font-family: 'Proxima-bold', sans-serif;
-  padding: 40px 0;
+  padding: 32px 0 0 0;
   position: relative;
+  display: flex;
+  flex-direction: column;
   border-bottom: 1px solid var(--light-gray-rgba-10);
 }
 
@@ -160,9 +162,9 @@ body.newsletters {
   font-family: "Proxima", sans-serif;
   line-height: 32px;
   padding: 0 16px;
-  margin: 16px;
-  display: inline-block;
-  position: relative;
+  margin: 8px 24px 24px 24px;
+  display: inline-flex;
+  align-self: flex-end;
   right: 0;
   border-radius: 16px;
 }
