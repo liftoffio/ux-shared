@@ -131,6 +131,7 @@ body.newsletters {
 .newsletter .topic {
   font-family: 'Proxima-bold', sans-serif;
   padding: 40px 0;
+  position: relative;
   border-bottom: 1px solid var(--light-gray-rgba-10);
 }
 
@@ -152,4 +153,34 @@ body.newsletters {
 
 .newsletter .subtopic:first-child {
   margin-top: 8px;
+}
+
+.tag {
+  color: #FFF !important;
+  font-family: "Proxima", sans-serif;
+  line-height: 32px;
+  padding: 0 16px;
+  margin: 16px;
+  display: inline-block;
+  position: relative;
+  right: 0;
+  border-radius: 16px;
+}
+
+.tag.tooling {
+  background: var(--accent-green);
+}
+
+.tag.team {
+  background: var(--primary-purple);
+}
+
+.tag.ux {
+  text-transform: uppercase;
+  background: var(--accent-gold);
+}
+
+.tag.ui {
+  text-transform: uppercase;
+  background: var(--accent-orange);
 }
