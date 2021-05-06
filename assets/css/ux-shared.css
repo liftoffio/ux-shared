@@ -20,7 +20,7 @@ h1 {
   font-family: 'Proxima-light';
   font-size: 48px;
   letter-spacing: .02em;
-  line-height: 1.25em;
+  line-height: 1em;
   margin-top: 24px;
 }
 
@@ -38,7 +38,7 @@ body.newsletters {
   color: #FFF;
   font-family: "Proxima-bold";
   text-transform: uppercase;
-  padding: 80px 32px 80px 52px;
+  padding: 86px 32px 86px 52px;
   margin: 0;
   position: relative;
   background: var(--primary-blue);
