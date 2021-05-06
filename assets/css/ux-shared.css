@@ -50,7 +50,7 @@ body.newsletters {
   color: var(--primary-blue);
   font-size: 72px;
   position: absolute;
-  bottom: -28px;
+  bottom: -23px;
   left: 44px;
   transform: scale(1, 1.3);
 }
